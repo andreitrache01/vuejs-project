@@ -1,0 +1,49 @@
+.container {
+    margin: 32px;
+    padding: 16px 24px;
+}
+
+.title {
+    text-align: start;
+    font-weight: 300;
+}
+
+.inputs-container {
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#status-select {
+    width: 100;
+}
+
+.inputs-container form {
+    width: 100%;
+}
+
+#job-title {
+    border: none;
+    height: 100%;
+    border-bottom: 2px solid aqua;
+    margin-right: 48px;
+    font-size: large;
+}
+
+#status-select {
+    border: none;
+    height: 100%;
+    border-bottom: 2px solid aqua;
+    font-size: large;
+
+}
+
+#create-role-button {
+    width: 16rem;
+    border: none;
+    background-color: rgb(25, 185, 185);
+    color: white;
+    padding: 16px 8px;
+    font-weight: 800;
+    border-radius: 6px;
+}
